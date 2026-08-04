@@ -8,7 +8,7 @@
    Use the full number with country code, digits only, no + or spaces.
    Example for an Indian number +91 98765 43210 -> "919876543210"
 --------------------------------------------------------------- */
-const DUNE_WHATSAPP_NUMBER = "919999999999"; // <-- REPLACE with Dune's real WhatsApp number
+const DUNE_WHATSAPP_NUMBER = "917799999196"; // <-- REPLACE with Dune's real WhatsApp number
 
 (function(){
   "use strict";
