@@ -32,12 +32,6 @@ const DUNE_WHATSAPP_NUMBER = "917799999196"; // <-- REPLACE with Dune's real Wha
   window.addEventListener("scroll", () => {
     const y = window.scrollY;
     header.classList.toggle("scrolled", y > 40);
-    if (y > lastY && y > 200) {
-      header.classList.add("hide");
-    } else {
-      header.classList.remove("hide");
-    }
-    lastY = y;
   }, { passive: true });
 
   /* ---------- Mobile nav toggle ---------- */
